@@ -2286,5 +2286,59 @@
    "quilt"
   ],
   "changelog": "First release."
+ },
+ {
+  "file": "uploads/tacz-loot/tacz_loot_2.0.0_datapack_1.20.1.zip",
+  "project": 1820164,
+  "name": "TACZ: Loot 2.0.0 - Data pack for 1.20.1",
+  "game": [
+   "1.20.1"
+  ],
+  "changelog": "**2.0.0**\n- New **loot modes**: `/function tacz_loot:mode/default` (tiered loot) or `/function tacz_loot:mode/equal` (every default gun, ammo and attachment has the same chance in every chest).\n- `/function tacz_loot:help` and `/function tacz_loot:status`.\n- New logo.\n- Guns from gun packs need the mod version.",
+  "requires": [
+   "timeless-and-classics-zero"
+  ]
+ },
+ {
+  "file": "uploads/tacz-loot/tacz_loot_2.0.0_datapack_1.21.1.zip",
+  "project": 1820164,
+  "name": "TACZ: Loot 2.0.0 - Data pack for 1.21.1",
+  "game": [
+   "1.21.1"
+  ],
+  "changelog": "**2.0.0**\n- New **loot modes**: `/function tacz_loot:mode/default` (tiered loot) or `/function tacz_loot:mode/equal` (every default gun, ammo and attachment has the same chance in every chest).\n- `/function tacz_loot:help` and `/function tacz_loot:status`.\n- New logo.\n- Guns from gun packs need the mod version.",
+  "requires": [
+   "timeless-and-classics-zero"
+  ]
+ },
+ {
+  "file": "uploads/tacz-loot/tacz-loot-2.0.0+forge-1.20.1.jar",
+  "project": 1820169,
+  "name": "TACZ: Loot 2.0.0 - Forge 1.20.1",
+  "game": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "changelog": "**2.0.0: gun pack support**\n- Guns from **any installed TACZ gun pack** can now show up in structure chests, with some of their own ammo.\n- New **loot modes**: Default (tiered loot, better guns in harder structures) or Equal (every gun, ammo and attachment has the same chance in every chest).\n- Settings screen (Config button in the Mods list), `/taczloot` commands and a config file: loot mode, chances, ammo and gun packs to leave out.\n- New logo.",
+  "requires": [
+   "timeless-and-classics-zero"
+  ]
+ },
+ {
+  "file": "uploads/tacz-loot/tacz-loot-2.0.0+neoforge-1.21.1.jar",
+  "project": 1820169,
+  "name": "TACZ: Loot 2.0.0 - NeoForge 1.21.1",
+  "game": [
+   "1.21.1"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "changelog": "**2.0.0: gun pack support**\n- Guns from **any installed TACZ gun pack** can now show up in structure chests, with some of their own ammo.\n- New **loot modes**: Default (tiered loot, better guns in harder structures) or Equal (every gun, ammo and attachment has the same chance in every chest).\n- Settings screen (Config button in the Mods list), `/taczloot` commands and a config file: loot mode, chances, ammo and gun packs to leave out.\n- New logo.",
+  "requires": [
+   "timeless-and-classics-zero"
+  ]
  }
 ]
