@@ -36,7 +36,7 @@
   "point-blank-craftable-grenades": {
     "mod": 1793105,
     "datapack": 1793114,
-    "already_on_curseforge": "all"
+    "already_on_curseforge": "all_but_1.20.1_mod"
   },
   "tacz-loot": {
     "mod": null,

@@ -40,6 +40,8 @@ def cf_versions():
             by_name.setdefault(("mc", v["name"]), v["id"])
         elif slug == "modloader":
             by_name.setdefault(("loader", v["name"]), v["id"])
+        elif slug == "environment":
+            by_name.setdefault(("env", v["name"]), v["id"])
     return by_name
 
 
@@ -80,6 +82,8 @@ def main():
             if v["id"] in synced.get(key, []):
                 continue
             already = targets.get("already_on_curseforge")
+            if already == "all_but_1.20.1_mod" and not (kind == "mod" and "1.20.1" in v["game_versions"]):
+                already = "all"
             if already == "all" or (isinstance(already, list) and v["version_number"] in already):
                 synced.setdefault(key, []).append(v["id"])
                 continue
@@ -89,6 +93,7 @@ def main():
                 continue
             if kind == "mod":
                 game += [cfv[("loader", MOD_LOADERS[l])] for l in loaders if ("loader", MOD_LOADERS[l]) in cfv]
+                game += [cfv[k] for k in (("env", "Client"), ("env", "Server")) if k in cfv]
             primary = next((f for f in v["files"] if f["primary"]), v["files"][0])
             meta = {
                 "changelog": v.get("changelog") or "Update.",
