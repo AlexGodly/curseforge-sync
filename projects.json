@@ -63,5 +63,39 @@
    "1.0.0+1.13",
    "1.0.0+1.20.2"
   ]
+ },
+ "alexs-craftable-totem": {
+  "mod": 1821748,
+  "datapack": 1821745,
+  "already_on_curseforge": [
+   "1.0.0+1.13-cheap",
+   "1.0.0+1.13-cheap+mod",
+   "1.0.0+1.13-normal",
+   "1.0.0+1.13-normal+mod",
+   "1.0.0+1.13-expensive",
+   "1.0.0+1.13-expensive+mod",
+   "1.0.0+1.20.2-cheap",
+   "1.0.0+1.20.2-cheap+mod",
+   "1.0.0+1.20.2-normal",
+   "1.0.0+1.20.2-normal+mod",
+   "1.0.0+1.20.2-expensive",
+   "1.0.0+1.20.2-expensive+mod"
+  ]
+ },
+ "alexs-craftable-elytra": {
+  "mod": 1821760,
+  "datapack": 1821755
+ },
+ "alexs-craftable-notch-apple": {
+  "mod": 1821768,
+  "datapack": 1821763
+ },
+ "alexs-craftable-trident": {
+  "mod": 1821775,
+  "datapack": 1821771
+ },
+ "alexs-craftable-heart-of-the-sea": {
+  "mod": 1821778,
+  "datapack": 1821776
  }
 }
