@@ -1,31 +1,42 @@
 {
   "point-blanks-arms-dealer-workstation-recipe": {
     "mod": 1792879,
-    "datapack": 1792899
+    "datapack": 1792899,
+    "already_on_curseforge": "all"
   },
   "anti-creeper-grief": {
     "mod": 1792959,
-    "datapack": 1792972
+    "datapack": 1792972,
+    "already_on_curseforge": "all"
   },
   "alexs-spelunkered-immersive-ores": {
     "mod": 1792987,
-    "datapack": 1792997
+    "datapack": 1792997,
+    "already_on_curseforge": [
+      "1"
+    ]
   },
   "point-blanks-minigun-motor-recipe": {
     "mod": 1793018,
-    "datapack": 1793029
+    "datapack": 1793029,
+    "already_on_curseforge": "all"
   },
   "alexs-fortunate-immersive-ores": {
     "mod": 1793060,
-    "datapack": 1793067
+    "datapack": 1793067,
+    "already_on_curseforge": [
+      "1"
+    ]
   },
   "point-blank-loot": {
     "mod": 1793083,
-    "datapack": 1793091
+    "datapack": 1793091,
+    "already_on_curseforge": "all"
   },
   "point-blank-craftable-grenades": {
     "mod": 1793105,
-    "datapack": 1793114
+    "datapack": 1793114,
+    "already_on_curseforge": "all"
   },
   "tacz-loot": {
     "mod": null,

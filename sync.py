@@ -74,10 +74,14 @@ def main():
             loaders = [l for l in v["loaders"] if l in MOD_LOADERS]
             kind = "mod" if loaders else "datapack"
             cf_id = targets.get(kind)
-            if not cf_id:
+            if not isinstance(cf_id, int):
                 continue
             key = str(cf_id)
             if v["id"] in synced.get(key, []):
+                continue
+            already = targets.get("already_on_curseforge")
+            if already == "all" or (isinstance(already, list) and v["version_number"] in already):
+                synced.setdefault(key, []).append(v["id"])
                 continue
             game = [cfv[("mc", g)] for g in v["game_versions"] if ("mc", g) in cfv]
             if not game:
