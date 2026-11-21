@@ -2340,5 +2340,133 @@
   "requires": [
    "timeless-and-classics-zero"
   ]
+ },
+ {
+  "file": "uploads/point-blank-loot/point_blank_loot_2.0.0_datapack_1.20.1-26.1.2.zip",
+  "project": 1793091,
+  "name": "Point Blank: Loot 2.0.0 - Data pack for 1.20.1 to 26.1.2",
+  "game": [
+   "1.20.1",
+   "1.21",
+   "1.21.1",
+   "1.21.11",
+   "26.1.2"
+  ],
+  "changelog": "**2.0.0**\n- New **loot modes**: `/function point_blank_loot:mode/default` (tiered loot) or `/function point_blank_loot:mode/equal` (every default gun, ammo and attachment has the same chance).\n- `/function point_blank_loot:help` and `/function point_blank_loot:status`.\n- New logo.\n- Guns from gun packs need the mod version."
+ },
+ {
+  "file": "uploads/point-blank-loot/point-blank-loot-2.0.0+forge-1.20.1.jar",
+  "project": 1793083,
+  "name": "Point Blank: Loot 2.0.0 - Forge 1.20.1",
+  "game": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "changelog": "**2.0.0: gun pack support**\n- Guns from **any installed Point Blank gun pack** can now show up in structure chests, with matching ammo.\n- New **loot modes**: Default (tiered loot, better guns in harder structures) or Equal (every gun, ammo and attachment has the same chance in every chest).\n- Settings screen (Mod Menu on Fabric, Config button on Forge/NeoForge, needs Cloth Config), `/pbloot` commands and `config/point_blank_loot.json`.\n- New logo."
+ },
+ {
+  "file": "uploads/point-blank-loot/point-blank-loot-2.0.0+neoforge-26.1.2.jar",
+  "project": 1793083,
+  "name": "Point Blank: Loot 2.0.0 - NeoForge 26.1.2",
+  "game": [
+   "26.1.2"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "changelog": "**2.0.0: gun pack support**\n- Guns from **any installed Point Blank gun pack** can now show up in structure chests, with matching ammo.\n- New **loot modes**: Default (tiered loot, better guns in harder structures) or Equal (every gun, ammo and attachment has the same chance in every chest).\n- Settings screen (Mod Menu on Fabric, Config button on Forge/NeoForge, needs Cloth Config), `/pbloot` commands and `config/point_blank_loot.json`.\n- New logo."
+ },
+ {
+  "file": "uploads/point-blank-loot/point-blank-loot-2.0.0+fabric-26.1.2.jar",
+  "project": 1793083,
+  "name": "Point Blank: Loot 2.0.0 - Fabric/Quilt 26.1.2",
+  "game": [
+   "26.1.2"
+  ],
+  "loaders": [
+   "fabric",
+   "quilt"
+  ],
+  "changelog": "**2.0.0: gun pack support**\n- Guns from **any installed Point Blank gun pack** can now show up in structure chests, with matching ammo.\n- New **loot modes**: Default (tiered loot, better guns in harder structures) or Equal (every gun, ammo and attachment has the same chance in every chest).\n- Settings screen (Mod Menu on Fabric, Config button on Forge/NeoForge, needs Cloth Config), `/pbloot` commands and `config/point_blank_loot.json`.\n- New logo."
+ },
+ {
+  "file": "uploads/point-blank-loot/point-blank-loot-2.0.0+fabric-1.20.1.jar",
+  "project": 1793083,
+  "name": "Point Blank: Loot 2.0.0 - Fabric/Quilt 1.20.1",
+  "game": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "fabric",
+   "quilt"
+  ],
+  "changelog": "**2.0.0: gun pack support**\n- Guns from **any installed Point Blank gun pack** can now show up in structure chests, with matching ammo.\n- New **loot modes**: Default (tiered loot, better guns in harder structures) or Equal (every gun, ammo and attachment has the same chance in every chest).\n- Settings screen (Mod Menu on Fabric, Config button on Forge/NeoForge, needs Cloth Config), `/pbloot` commands and `config/point_blank_loot.json`.\n- New logo."
+ },
+ {
+  "file": "uploads/point-blank-loot/point-blank-loot-2.0.0+forge-1.21.1.jar",
+  "project": 1793083,
+  "name": "Point Blank: Loot 2.0.0 - Forge 1.21.1",
+  "game": [
+   "1.21",
+   "1.21.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "changelog": "**2.0.0: gun pack support**\n- Guns from **any installed Point Blank gun pack** can now show up in structure chests, with matching ammo.\n- New **loot modes**: Default (tiered loot, better guns in harder structures) or Equal (every gun, ammo and attachment has the same chance in every chest).\n- Settings screen (Mod Menu on Fabric, Config button on Forge/NeoForge, needs Cloth Config), `/pbloot` commands and `config/point_blank_loot.json`.\n- New logo."
+ },
+ {
+  "file": "uploads/point-blank-loot/point-blank-loot-2.0.0+neoforge-1.21.1.jar",
+  "project": 1793083,
+  "name": "Point Blank: Loot 2.0.0 - NeoForge 1.21.1",
+  "game": [
+   "1.21",
+   "1.21.1"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "changelog": "**2.0.0: gun pack support**\n- Guns from **any installed Point Blank gun pack** can now show up in structure chests, with matching ammo.\n- New **loot modes**: Default (tiered loot, better guns in harder structures) or Equal (every gun, ammo and attachment has the same chance in every chest).\n- Settings screen (Mod Menu on Fabric, Config button on Forge/NeoForge, needs Cloth Config), `/pbloot` commands and `config/point_blank_loot.json`.\n- New logo."
+ },
+ {
+  "file": "uploads/point-blank-loot/point-blank-loot-2.0.0+fabric-1.21.1.jar",
+  "project": 1793083,
+  "name": "Point Blank: Loot 2.0.0 - Fabric/Quilt 1.21.1",
+  "game": [
+   "1.21",
+   "1.21.1"
+  ],
+  "loaders": [
+   "fabric",
+   "quilt"
+  ],
+  "changelog": "**2.0.0: gun pack support**\n- Guns from **any installed Point Blank gun pack** can now show up in structure chests, with matching ammo.\n- New **loot modes**: Default (tiered loot, better guns in harder structures) or Equal (every gun, ammo and attachment has the same chance in every chest).\n- Settings screen (Mod Menu on Fabric, Config button on Forge/NeoForge, needs Cloth Config), `/pbloot` commands and `config/point_blank_loot.json`.\n- New logo."
+ },
+ {
+  "file": "uploads/point-blank-loot/point-blank-loot-2.0.0+neoforge-1.21.11.jar",
+  "project": 1793083,
+  "name": "Point Blank: Loot 2.0.0 - NeoForge 1.21.11",
+  "game": [
+   "1.21.11"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "changelog": "**2.0.0: gun pack support**\n- Guns from **any installed Point Blank gun pack** can now show up in structure chests, with matching ammo.\n- New **loot modes**: Default (tiered loot, better guns in harder structures) or Equal (every gun, ammo and attachment has the same chance in every chest).\n- Settings screen (Mod Menu on Fabric, Config button on Forge/NeoForge, needs Cloth Config), `/pbloot` commands and `config/point_blank_loot.json`.\n- New logo."
+ },
+ {
+  "file": "uploads/point-blank-loot/point-blank-loot-2.0.0+fabric-1.21.11.jar",
+  "project": 1793083,
+  "name": "Point Blank: Loot 2.0.0 - Fabric/Quilt 1.21.11",
+  "game": [
+   "1.21.11"
+  ],
+  "loaders": [
+   "fabric",
+   "quilt"
+  ],
+  "changelog": "**2.0.0: gun pack support**\n- Guns from **any installed Point Blank gun pack** can now show up in structure chests, with matching ammo.\n- New **loot modes**: Default (tiered loot, better guns in harder structures) or Equal (every gun, ammo and attachment has the same chance in every chest).\n- Settings screen (Mod Menu on Fabric, Config button on Forge/NeoForge, needs Cloth Config), `/pbloot` commands and `config/point_blank_loot.json`.\n- New logo."
  }
 ]
