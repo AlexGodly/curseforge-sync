@@ -102,8 +102,11 @@ def main():
                 "gameVersions": game,
                 "releaseType": {"release": "release", "beta": "beta", "alpha": "alpha"}.get(v["version_type"], "release"),
             }
+            rel = [{"slug": r, "type": "requiredDependency"} for r in targets.get("requires", [])]
             if kind == "mod" and "fabric" in loaders:
-                meta["relations"] = {"projects": [{"slug": FABRIC_API, "type": "requiredDependency"}]}
+                rel.append({"slug": FABRIC_API, "type": "requiredDependency"})
+            if rel:
+                meta["relations"] = {"projects": rel}
             print(f"[{slug}] {v['version_number']} -> CurseForge {cf_id} ({kind}, {len(game)} versions)")
             if DRY:
                 continue

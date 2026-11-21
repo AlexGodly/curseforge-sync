@@ -39,8 +39,11 @@
     "already_on_curseforge": "all_but_1.20.1_mod"
   },
   "tacz-loot": {
-    "mod": null,
-    "datapack": null
+    "mod": 1820169,
+    "datapack": 1820164,
+    "requires": [
+      "timeless-and-classics-zero"
+    ]
   },
   "smooch-vanilla": {
     "datapack": 1820136
