@@ -4894,5 +4894,37 @@
    "quilt"
   ],
   "changelog": "First release."
+ },
+ {
+  "file": "uploads/point-blank-craftable-grenades/craftable_grenades_1.0.1_datapack_1.20.1-26.1.2.zip",
+  "project": 1793114,
+  "name": "Data pack 1.0.1 for 1.20.1 to 26.1.2",
+  "game": [
+   "1.20.1",
+   "1.21",
+   "1.21.1",
+   "1.21.11",
+   "26.1.2"
+  ],
+  "changelog": "New icon, and a mod version that works on Forge, NeoForge, Fabric and Quilt."
+ },
+ {
+  "file": "uploads/point-blank-craftable-grenades/craftable_grenades_1.0.1_mod_1.20.1-26.1.2.jar",
+  "project": 1793105,
+  "name": "Mod 1.0.1 for 1.20.1 to 26.1.2",
+  "game": [
+   "1.20.1",
+   "1.21",
+   "1.21.1",
+   "1.21.11",
+   "26.1.2"
+  ],
+  "loaders": [
+   "fabric",
+   "forge",
+   "neoforge",
+   "quilt"
+  ],
+  "changelog": "New icon, and a mod version that works on Forge, NeoForge, Fabric and Quilt."
  }
 ]
