@@ -67,5 +67,15 @@
   "alexs-craftable-elytra": {
     "datapack": 1821755,
     "already_on_curseforge": "all"
+  },
+  "alexs-glass-always-drops": {
+    "mod": 1824973,
+    "datapack": 1824968,
+    "already_on_curseforge": "all"
+  },
+  "alexs-ender-chest-always-drops": {
+    "mod": 1824973,
+    "datapack": 1824968,
+    "already_on_curseforge": "all"
   }
 }
